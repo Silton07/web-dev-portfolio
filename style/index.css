@@ -18,9 +18,15 @@
     font-weight: bold;
     color: white;
     font-size: 20px;
+    border: none;
     padding: 18px 35px;
     border-radius: 5px;
 
+}
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
 /*nav style */
@@ -45,4 +51,24 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-contain{
+    max-width: bold ;
+    font-size: 85px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font: 85px;
+}
+.banner-profile-picture{
+    width: 580px;
 }
